@@ -41,7 +41,7 @@ UI Buttons
 The application is developed with the Fiji package http://fiji.sc/  . The execution of java class MyApp  is done through the Script Editor of Fiji.  
 The images used are in the relevant folder (files). The actual masks are separate for the right and left lung. When calculating the delineation assessment, however, both parts of the lungs are taken.  
   
-**Note: Images are from JSRT Database, and masks are from SCR Database**  
+**Note: Images are from [JSRT Database](http://imgcom.jsrt.or.jp/minijsrtdb/), and masks are from [SCR Database](https://zenodo.org/record/7056076)**  
 
 
 # Installation
