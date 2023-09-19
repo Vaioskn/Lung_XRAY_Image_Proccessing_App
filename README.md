@@ -73,19 +73,19 @@ Now, lets enhance this XRAY photo using "Gamma correction"
 ![4](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/4_final.png)
 <br>
 <br>
-You can see the slight difference in this photo where I have clicked on "Unsharp Mask":  
+You can see the deepend black in this photo. Lets use "Unsharp Mask" to make things clear:  
 <br>
 <br>
 ![5](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/5_final.png)
 <br>
 <br>
-In the following image you can clearly see the sharpness of the XRAY. Lets also detect the lungs using segmentation.  
+In the following image you can clearly see the sharpness of the XRAY after applying the Unsharp Mask. I will now detect the lungs, using segmentation.  
 <br>
 <br>
 ![6](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/6_final.png)
 <br>
 <br>
-Here is the output (I have also clicked on "Evaluate Result in order to see how well the segmentation worked"):  
+Here is the output after running the segmentation algorithm. Les Evaluate the result to see how well the segmentation worked:  
 <br>
 <br>
 ![7](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/7_final.png)
