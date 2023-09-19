@@ -51,7 +51,7 @@ This is a script for the image proccessing app "Fiji". You will need the latest 
 
 ![1](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/1_final.png)
 
-**file -> open**    
+**file -> open**    <br> <br>
   
 ![2](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/2_final.png)
 
