@@ -48,38 +48,73 @@ Note: Images are from JSRT Database, and masks are from SCR Database
 
 This is a script for the image proccessing app "Fiji". You will need the latest version of fiji, with a java distribution in the fiji.app/java folder. Assuming that you have corectly passed your java distribution into fiji, you simply need to import the "MyApp.java" script.  
 **File -> new -> script**  
-
+<br>
 ![1](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/1_final.png)
-
-**file -> open**    <br> <br>
+<br>
+Then **file -> open**    <br> <br> <br>
   
 ![2](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/2_final.png)
+<br>
+<br>
+# Example
+<br>
+Here is an example of a successful use of the application using one of the photos in the "XRAY" folder  
+<br>  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Firstly, lets open the photo from within the script by clicking "Open Photo" and selecting a photo from our storage.  
+<br>
+<br>
+![3](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/3_final.png)
+<br>
+<br>
+Now, lets enhance this XRAY photo using "Gamma correction"  
+<br>
+<br>
+![4](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/4_final.png)
+<br>
+<br>
+You can see the slight difference in this photo where I have clicked on "Unsharp Mask":  
+<br>
+<br>
+![5](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/5_final.png)
+<br>
+<br>
+In the following image you can clearly see the sharpness of the XRAY. Lets also detect the lungs using segmentation.  
+<br>
+<br>
+![6](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/6_final.png)
+<br>
+<br>
+Here is the output (I have also clicked on "Evaluate Result in order to see how well the segmentation worked"):  
+<br>
+<br>
+![7](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/7_final.png)
+<br>
+<br>
+And here is the "Ground Truth" from my computer selected for the left lung:  
+<br>
+<br>
+![8](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/8_final.png)
+<br>
+<br>
+And for the right lung:  
+<br>
+<br>
+![9](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/9_final.png)
+<br>
+<br>
+We can see the "Ground Truth" and the accuracy clearly:  
+<br>
+<br>
+![10](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/10_final.png)
+<br>
+<br>
+Now lets Analyze the Lungs:  
+<br>
+<br>
+![11](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/11_final.png)
+<br>
+<br>
 
 
 
