@@ -9,19 +9,19 @@ I have developed a program that:
 4.	Extracts features from the lung region so that they can be used to classify a potential disease.**    
 To evaluate the delineation, I have the real mask (ground truth) and thus I calculate the accuracy of the segmentation method I chose. Let A be the actual mask (Ground Truth) and B be the mask calculated by the automatic segmentation algorithm. For each image, I calculate the number of pixels included in both masks and the number of pixels that belong to the area defined by mask A and not by B and vice versa. Therefore, the following magnitudes are calculated:   
 
-**(1) Common points or ($)Area(A∩B)($)  
-(2) Points that belong to A and not to B or Area ((A∪B)-B)    
-(3) Points that belong to B and not in A or Area((A∪B)-A).**  
+**(1) Common points or $Area(A∩B)$  
+(2) Points that belong to A and not to B or $Area ((A∪B)-B)$    
+(3) Points that belong to B and not in A or $Area((A∪B)-A)$.**  
   
 To normalize the results I used the following quantities:  
   
-**DCS=Area(A∩B)/(Area(A∩B)+Area((A∪B)-B)+Area((A∪B)-A))**  
+**$DCS=Area(A∩B)/(Area(A∩B)+Area((A∪B)-B)+Area((A∪B)-A))$**  
   
-**D(A-B)=(Area((A∪B)-B))/(Area(A∩B)+Area((A∪B)-B)+Area((A∪B)-A))**  
+**$D(A-B)=(Area((A∪B)-B))/(Area(A∩B)+Area((A∪B)-B)+Area((A∪B)-A))$**  
   
-**D(B-A)=(Area((A∪B)-A))/(Area(A∩B)+Area((A∪B)-B)+Area((A∪B)-A))**  
+**$D(B-A)=(Area((A∪B)-A))/(Area(A∩B)+Area((A∪B)-B)+Area((A∪B)-A))$**  
   
-where **DCS** is the percentage (index) of common points and D(A-B), D(B-A) are the corresponding percentages of areas (2) and (3). The DCS value is MAX when the two contours coincide and zero when regions A and B have no points in common, i.e. the algorithm found no information. The range of interest, therefore, for the DCS is (0.0-1.0).  
+where **$DCS$** is the percentage (index) of common points and $D(A-B), D(B-A)$ are the corresponding percentages of areas (2) and (3). The $DCS$ value is MAX when the two contours coincide and zero when regions A and B have no points in common, i.e. the algorithm found no information. The range of interest, therefore, for the $DCS$ is $(0.0-1.0)$.  
 Also the application calculates the following 6 features from the detected lung area.  
 **1.	Area  
 2.	Perimeter  
