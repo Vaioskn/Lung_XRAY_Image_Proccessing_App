@@ -53,14 +53,16 @@ This is a script for the image proccessing app "Fiji". You will need the latest 
 <br>
 <br>
 <br>
-Then **file -> open**    <br> <br> <br>
-  
+Then **file -> Open**    
+<br>  
+<br>
+<br>
 ![2](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/2_final.png)
 <br>
 <br>
 # Example
 <br>
-Here is an example of a successful use of the application using one of the photos in the "XRAY" folder  
+**Here is an example of an ordinary use of the application using one of the photos in the "XRAY" folder**   
 <br>  
 
 Firstly, lets open the photo from within the script by clicking "Open Photo" and selecting a photo from our storage.  
@@ -75,7 +77,7 @@ Now, lets enhance this XRAY photo using "Gamma correction"
 ![4](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/4_final.png)
 <br>
 <br>
-You can see the deepend black in this photo. Lets use "Unsharp Mask" to make things clear:  
+You can see the deepend black in the following photo. Lets also use "Unsharp Mask" to make things clear:  
 <br>
 <br>
 ![5](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/5_final.png)
