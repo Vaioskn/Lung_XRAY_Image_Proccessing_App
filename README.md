@@ -44,6 +44,16 @@ The images used are in the relevant folder (files). The actual masks are separat
 Note: Images are from JSRT Database, and masks are from SCR Database  
 
 
+# Installation
+
+This is a script for the image proccessing app "Fiji". You will need the latest version of fiji, with a java distribution in the fiji.app/java folder. Assuming that you have corectly passed your java distribution into fiji, you simply need to import the "MyApp.java" script.  
+**File -> new -> script**  
+
+[1](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/1_final.png)
+
+**file -> open**    
+  
+[2](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/2_final.png)
 
 
 
