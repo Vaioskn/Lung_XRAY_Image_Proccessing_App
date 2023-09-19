@@ -51,6 +51,8 @@ This is a script for the image proccessing app "Fiji". You will need the latest 
 <br>
 ![1](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/1_final.png)
 <br>
+<br>
+<br>
 Then **file -> open**    <br> <br> <br>
   
 ![2](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/2_final.png)
@@ -85,31 +87,31 @@ In the following image you can clearly see the sharpness of the XRAY after apply
 ![6](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/6_final.png)
 <br>
 <br>
-Here is the output after running the segmentation algorithm. Les Evaluate the result to see how well the segmentation worked:  
+Here is the output after running the segmentation algorithm. Lets evaluate the result to see how well the segmentation worked:  
 <br>
 <br>
 ![7](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/7_final.png)
 <br>
 <br>
-And here is the "Ground Truth" from my computer selected for the left lung:  
+Selecting the left lung ground truth:  
 <br>
 <br>
 ![8](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/8_final.png)
 <br>
 <br>
-And for the right lung:  
+Selecting the right lung ground truth:  
 <br>
 <br>
 ![9](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/9_final.png)
 <br>
 <br>
-We can see the "Ground Truth" and the accuracy clearly:  
+We can see how accurate the segmentation was:  
 <br>
 <br>
 ![10](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/10_final.png)
 <br>
 <br>
-Now lets Analyze the Lungs:  
+Lastly, lets Analyze the Lungs:  
 <br>
 <br>
 ![11](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/11_final.png)
