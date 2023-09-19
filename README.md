@@ -41,7 +41,7 @@ UI Buttons
 The application is developed with the Fiji package http://fiji.sc/  . The execution of java class MyApp  is done through the Script Editor of Fiji.  
 The images used are in the relevant folder (files). The actual masks are separate for the right and left lung. When calculating the delineation assessment, however, both parts of the lungs are taken.  
   
-Note: Images are from JSRT Database, and masks are from SCR Database  
+**Note: Images are from JSRT Database, and masks are from SCR Database**  
 
 
 # Installation
@@ -54,66 +54,65 @@ This is a script for the image proccessing app "Fiji". You will need the latest 
 <br>
 <br>
 Then **file -> Open**    
-<br>  
 <br>
 <br>
 ![2](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/2_final.png)
 <br>
 <br>
 # Example
-<br>
-**Here is an example of an ordinary use of the application using one of the photos in the "XRAY" folder**   
-<br>  
 
-Firstly, lets open the photo from within the script by clicking "Open Photo" and selecting a photo from our storage.  
+**Here is an example of an ordinary use of the application using one of the photos in the "XRAY" folder**
+
+
+**Firstly, lets open the photo from within the script by clicking "Open Photo" and selecting a photo from our storage.** 
 <br>
 <br>
 ![3](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/3_final.png)
 <br>
 <br>
-Now, lets enhance this XRAY photo using "Gamma correction"  
+**Now, lets enhance this XRAY photo using "Gamma correction"**
 <br>
 <br>
 ![4](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/4_final.png)
 <br>
 <br>
-You can see the deepend black in the following photo. Lets also use "Unsharp Mask" to make things clear:  
+**You can see the deepend black in the following photo. Lets also use "Unsharp Mask" to make things clear:**  
 <br>
 <br>
 ![5](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/5_final.png)
 <br>
 <br>
-In the following image you can clearly see the sharpness of the XRAY after applying the Unsharp Mask. I will now detect the lungs, using segmentation.  
+**In the following image you can clearly see the sharpness of the XRAY after applying the Unsharp Mask. I will now detect the lungs, using segmentation.**  
 <br>
 <br>
 ![6](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/6_final.png)
 <br>
 <br>
-Here is the output after running the segmentation algorithm. Lets evaluate the result to see how well the segmentation worked:  
+**Here is the output after running the segmentation algorithm. Lets evaluate the result to see how well the segmentation worked:**  
 <br>
 <br>
 ![7](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/7_final.png)
 <br>
 <br>
-Selecting the left lung ground truth:  
+**Selecting the left lung ground truth:**  
 <br>
 <br>
 ![8](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/8_final.png)
 <br>
 <br>
-Selecting the right lung ground truth:  
+**Selecting the right lung ground truth:**  
 <br>
 <br>
 ![9](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/9_final.png)
 <br>
 <br>
-We can see how accurate the segmentation was:  
+**We can see how accurate the segmentation was:**  
 <br>
 <br>
 ![10](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/10_final.png)
 <br>
 <br>
-Lastly, lets Analyze the Lungs:  
+**Lastly, lets Analyze the Lungs:**  
 <br>
 <br>
 ![11](https://github.com/Vaioskn/Lung_XRAY_Image_Proccessing_App/blob/main/photos/11_final.png)
